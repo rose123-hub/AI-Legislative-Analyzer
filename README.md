@@ -52,7 +52,9 @@ It uses **Artificial Intelligence (Google Gemini model)** to convert dense legal
 ---
 
 ## 📷 Screenshots
-*(Add your project screenshots here)*
+*![WhatsApp Image 2026-03-22 at 20 24 12](https://github.com/user-attachments/assets/fabba717-26b8-46d8-9abb-42540fc32e0e)
+*<img width="1600" height="999" alt="image" src="https://github.com/user-attachments/assets/59e3df3f-4e83-4a96-b7a0-68856e650b5c" />
+
 
 ---
 
