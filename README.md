@@ -62,16 +62,13 @@ Converts complex legal jargon into simple English.
 
 ## 📂 Project Structure
 AI-Legislative-Analyzer/
-│── app/                 # Main application (Next.js app directory)
-│── lib/                 # Utility functions and helpers
-│── README.md            # Project documentation
-│── package.json         # Project dependencies
-│── package-lock.json    # Dependency lock file
-│── next.config.js       # Next.js configuration
-│── next-env.d.ts        # Next.js TypeScript definitions
-│── node_modules/        # Installed dependencies
-│── dev.log              # Development logs
-
+├── app/
+├── lib/
+├── public/
+├── README.md
+├── package.json
+├── next.config.js
+└── next-env.d.ts
 ### 🔍 Key Insight Extraction
 Automatically identifies:
 - 📌 Key Provisions  
