@@ -62,24 +62,13 @@ Converts complex legal jargon into simple English.
 
 ## 📂 Project Structure
 AI-Legislative-Analyzer/
-├── app/                         # Next.js App Router (pages & layouts)
-│   ├── dashboard/              # Dashboard UI & result views
-│   │   └── page.tsx            # Main dashboard page
-│   ├── layout.tsx              # Root layout
-│   └── page.tsx                # Home page
-│
-├── lib/                        # Utility modules & core logic
-│   └── chunker.ts              # Handles large document processing
-│
-├── public/                     # Static assets (images, icons, fonts)
-│
-├── README.md                   # Project documentation
-├── package.json                # Dependencies & scripts
-├── package-lock.json           # Dependency lock file
-├── next.config.js              # Next.js configuration
-├── next-env.d.ts               # TypeScript environment definitions
-│
-└── node_modules/               # Installed dependencies (auto-generated)
+├── app/
+├── lib/
+├── public/
+├── README.md
+├── package.json
+├── next.config.js
+└── next-env.d.ts
 ### 🔍 Key Insight Extraction
 Automatically identifies:
 - 📌 Key Provisions  
@@ -118,3 +107,11 @@ Users enter their own *Gemini API Key*
 #### 📊 Strategy:
 - Small docs → Single prompt  
 - Large docs (80,000+ chars) → Chunking system
+- Displays results in tabs  
+- Includes search & filtering  
+
+---
+
+## 🎯 Conclusion
+
+This project is a powerful prototype aimed at improving **legal literacy and civic engagement in India**. By using Large Language Models, it simplifies complex legal content and removes language barriers for everyday citizens.
