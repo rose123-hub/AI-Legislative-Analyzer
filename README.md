@@ -35,19 +35,21 @@ It uses **Artificial Intelligence (Google Gemini model)** to convert dense legal
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** HTML, CSS, JavaScript  
-- **Backend:** Node.js / Python (if used)  
-- **AI Model:** Google Gemini  
-- **Database:** (Add if you used one)
-
+- **Framework:** Next.js(App Router,v14.2),React 18  
+- **Language:** Typescript  
+- **Styling:** Custom CSS(Glassmorphic UI,animations)
+- **API Integration:** Google Gemini API(gemini-2.0-flash)
+- **File Parsing:** pdf-parse library
 ---
 
-## 🚀 How It Works
+## ⚙️ Core Features
 
-1. Upload or paste legal document  
-2. AI processes the content  
-3. Extracts key insights  
-4. Displays simplified explanation  
+### 📖 Plain Language Translation
+Converts complex legal jargon into simple English.
+
+### 📝 Actionable Summaries
+- Bullet-point insights  
+- Includes *TL;DR* summary
 
 ---
 
@@ -69,3 +71,42 @@ AI-Legislative-Analyzer/
 │── next-env.d.ts        # Next.js TypeScript definitions
 │── node_modules/        # Installed dependencies
 │── dev.log              # Development logs
+
+### 🔍 Key Insight Extraction
+Automatically identifies:
+- 📌 Key Provisions  
+- ⚡ Law Changes  
+- 🛡️ Citizen Rights  
+- ⚖️ Penalties  
+- 📅 Important Dates  
+
+### 🌍 Multilingual Support (10 Languages)
+Supports:
+English, Hindi, Tamil, Telugu, Bengali, Marathi, Gujarati, Kannada, Malayalam, Punjabi  
+
+### ⚖️ Bill Comparison Tool
+Compare two versions of a bill side-by-side.
+
+### 🔊 Accessibility
+Built-in *Text-to-Speech (Voice Player)*  
+
+---
+
+## 🔄 How It Works
+
+### 1️⃣ Input Stage
+Users can:
+- Paste text  
+- Upload PDF/TXT  
+- Provide website URL  
+
+### 2️⃣ API Authentication
+Users enter their own *Gemini API Key*
+
+### 3️⃣ Smart Processing (Backend)
+- Parses document  
+- Handles size limits  
+
+#### 📊 Strategy:
+- Small docs → Single prompt  
+- Large docs (80,000+ chars) → Chunking system
