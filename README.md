@@ -59,3 +59,13 @@ It uses **Artificial Intelligence (Google Gemini model)** to convert dense legal
 ---
 
 ## 📂 Project Structure
+AI-Legislative-Analyzer/
+│── app/                 # Main application (Next.js app directory)
+│── lib/                 # Utility functions and helpers
+│── README.md            # Project documentation
+│── package.json         # Project dependencies
+│── package-lock.json    # Dependency lock file
+│── next.config.js       # Next.js configuration
+│── next-env.d.ts        # Next.js TypeScript definitions
+│── node_modules/        # Installed dependencies
+│── dev.log              # Development logs
